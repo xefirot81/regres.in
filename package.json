@@ -1,0 +1,26 @@
+{
+  "name": "soderberg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "should": "^13.2.3",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
