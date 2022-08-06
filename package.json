@@ -10,7 +10,9 @@
     "testEnvironment": "node",
     "reporters": [
       "default",
-      "jest-html-reporters"
+      ["jest-html-reporters", {
+        "inlineSource": true
+      }]
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/"
